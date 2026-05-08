@@ -1,42 +1,36 @@
-## Common Mistakes 
+# Common Mistakes 
 
-### Imports
-* line 8 - incorrect import name
+## imports
+* Missing the "torch" import
+* Misspelled "SkyDataset" as "SkaiDataset"
 
-### `make_model` 
-* line 9 - in_layer != input_layer 
-* line 19 - model = Model(in_layer, x) -> `model = Model(in_layer, output)`
+## data processing
+* Transformer uses "randomresized" instead of a resize to 64x64
+* Missing labels on the EDA, too many images being plotted
+* Missing a `squeeze` on imshow
 
-### `train_model`
-* line 12 - too few validation samples 
-* line 16 - validation data is set to the train data 
-* line 17 - `epoch` spelled incorrectly
+## model
+* Using a "softmax" over the output function, for a binary problem this should be sigmoid
+* Missing an "unsqueeze" to resize 
+* Missing the 3rd conv block
 
-### `eval_model`
-* line 8 - No parameter for the generator named "test"
-* line 10 - wrong name for the model
-* line 11 - wrong np.where order of 1/0
+## training
+* Missing the optimizer step in training 
+* Validation step still includes the gradient
+* Only trains for 2 epochs
 
+# Notebook 1
+* Random input size, need to make sure the resize is doing it's job
 
-# Notebook 1 - 
+# Notebook 2
+* Imbalanced training data - 85-95% stars. 
 
-Very low learning rate - The model will never learn. 
-Incorrect loss function - swap to a binary classification loss. 
+# Notebook 3
+* The data includes a ton of completely empty images with very large noise levels
 
-# Notebook 2 - 
+# Notebook 4
+* Extra class in the training data. Write a function that removes label N=3, or weight it 0. 
+* Images are returned as numpy arrays and not torch tensors
 
-Imbalanced training data - 85-95% stars. 
-Correct by weighting the labels in the training loop. 
-
-# Notebook 3 - 
-
-The data includes a ton of completely empty images. 
-A pre-processing function can be written to filter these out.
-
-# Notebook 4 - 
-
-Extra class in the training data. Write a function that removes label N=3, or weight it 0. 
-
-# Notebook 5 - 
-
-A pre-processing function is applied to the training data but not the validation or testing data. 
+# Notebook 5 
+* This isn't a classification problem! It's a regression problem! - labels are 1x3 of radius, center x and center y. 
