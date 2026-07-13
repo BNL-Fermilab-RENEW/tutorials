@@ -5,11 +5,11 @@ The no-save notebook links are here:
 
 | Challenge Number | Notebook |
 | ------------- |-------------| 
-| 1  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BNL-Fermilab-RENEW/tutorials_2025/blob/main/Challenge/challenges/challenge_01.ipynb) |
-| 2  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BNL-Fermilab-RENEW/tutorials_2025/blob/main/Challenge/challenges/challenge_02.ipynb) |
-| 3  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BNL-Fermilab-RENEW/tutorials_2025/blob/main/Challenge/challenges/challenge_03.ipynb) |
-| 4  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BNL-Fermilab-RENEW/tutorials_2025/blob/main/Challenge/challenges/challenge_04.ipynb) |
-| 5  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BNL-Fermilab-RENEW/tutorials_2025/blob/main/Challenge/challenges/challenge_05.ipynb) |
+| 1  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BNL-Fermilab-RENEW/tutorials/blob/main/Challenge/challenges/challenge01.ipynb) |
+| 2  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BNL-Fermilab-RENEW/tutorials/blob/main/Challenge/challenges/challenge02.ipynb) |
+| 3  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BNL-Fermilab-RENEW/tutorials/blob/main/Challenge/challenges/challenge03.ipynb) |
+| 4  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BNL-Fermilab-RENEW/tutorials/blob/main/Challenge/challenges/challenge04.ipynb) |
+| 5  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BNL-Fermilab-RENEW/tutorials/blob/main/Challenge/challenges/challenge05.ipynb) |
 
 
 At the end of the challenge, you will have to present your work. 
